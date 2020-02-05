@@ -15,7 +15,7 @@ nav{
   width: 100%;
 }
 #se{
-  background-image: url(../image/d.gif)no-repeat;
+  background: url(../image/d.gif)no-repeat;
   background-size: cover ;
   height: calc(100vh - 80px);
 }
