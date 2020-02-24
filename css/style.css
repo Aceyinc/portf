@@ -13,7 +13,13 @@ body{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-size: cover;
 }
-
+.footer{
+  color:#7fff00;
+  text-decoration: none;
+  text-align: center;
+  background-color: rgb(197, 21, 57);
+  line-height: 30px;
+}
 .nav{
   background-color: #00a5e6;
   height: 80px;
@@ -79,10 +85,12 @@ a.active,a:hover{
     display: block;
   }
   ul{
+    
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #2c3e50;
+    /* background: rgb(127, 255, 0); */
+    /* background-image: url(d.jpg); */
     top: 80px;
     left: -100%;
     transition: all .5s;
