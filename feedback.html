@@ -1,0 +1,58 @@
+<html>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+<body style="background-color:aquamarine ;">
+  <div class="container">
+    <h2>FeedBack Form</h2>
+    <hr>
+
+    <form target="_blank" name="feedbackform" action="" onsubmit="" method="POST">
+      <fieldset>
+        <legend>Personalia:</legend>
+        <div class="row">
+          <div class="col-md-6 col-xs-8 col-lg-8">
+
+            <label for="uname">Username :</label><br />
+            <input type="text" id="uname" value="" placeholder=" IG username here" required /><br />
+            <hr>
+            <label for="comment">Feedback :</label><br />
+            <!-- <input type="text" id="comment" value="" placeholder=" comment here" required /><br /> -->
+            <textarea name="message" rows="5" cols="20"></textarea>
+            <br><br>
+            <hr>
+            <label for="email">Email :</label><br />
+            <input type="email" id="email" value="" placeholder=" email" required />
+            <hr>
+            <br />
+          </div>
+
+
+          <div class="col-md-6 col-xs-4 col-lg-4 ">
+            <em>Select Gender! <br>
+              <input type="radio" id="male" name="gender" value="male" />
+              <label for="male">Male</label><br />
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="female">Female</label><br />
+              <input type="radio" id="other" name="gender" value="other" />
+              <label for="other">Other</label> <br />
+              <br /></em>
+          </div>
+
+          <!-- <div class="col-md-3 col-xs-2 col-lg-2">
+          <select id="gender" name="gender" aria-placeholder="gender">
+            <option value="both">Both</option>
+          </select><br><br>
+        </div> -->
+        </div>
+      </fieldset>
+    </form>
+    <button class="btn-group">
+      <input type="submit" value="submit" onclick="alert('Feedback submitted!')" />
+
+      <a href="index.html"><button class="btn-warning">home</button></a>
+    </button>
+  </div>
+</body>
+
+</html>
