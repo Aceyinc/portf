@@ -5,6 +5,7 @@
   list-style: none;
   box-sizing: border-box;
 }
+
 #form{background-color: aqua;}
 .section{
   align-content: center;
@@ -81,6 +82,13 @@ a.active,a:hover{
   }
 }
 @media (max-width: 858px){
+  label.logo{
+    font-size: 20px;
+    /* padding-left: 50px; */
+  }
+  .section{
+    width: 100%;
+  }
   .checkbtn{
     display: block;
   }
