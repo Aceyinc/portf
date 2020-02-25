@@ -84,6 +84,7 @@ a.active,a:hover{
 @media (max-width: 858px){
   label.logo{
     font-size: 20px;
+    position: relative;
     /* padding-left: 50px; */
   }
   .section{
