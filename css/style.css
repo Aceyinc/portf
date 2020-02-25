@@ -85,7 +85,7 @@ nav ul li a{
   text-transform: uppercase;
 }
 a.active,a:hover{
-  background: #1b9bff;
+  /* background: #1b9bff; */
   transition: .5s;
 }
 .checkbtn{
@@ -97,6 +97,9 @@ a.active,a:hover{
   margin-left: 50%;
   cursor: crosshair;
   display: none;
+}
+.checkbtn:hover{
+  color: rgb(6, 9, 179);
 }
 #check{
   display: none;
