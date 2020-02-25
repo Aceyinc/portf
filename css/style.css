@@ -6,22 +6,24 @@
   box-sizing: border-box;
 }
 
-#form{background-color: aqua;}
+/* #form{background-color: aqua;} */
 .section{
   align-content: center;
 }
 body{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-size: cover;
+  
 }
 .footer{
   color:#7fff00;
   text-decoration: none;
   text-align: center;
-  background-color: rgb(197, 21, 57);
+  /* background-color: rgb(197, 21, 57); */
   line-height: 30px;
 }
 .nav{
+  /* background-color: #00a5e6; */
   height: 80px;
   width: 100%;
 }
@@ -83,7 +85,10 @@ a.active,a:hover{
 @media (max-width: 858px){
   label.logo{
     font-size: 20px;
-    position: relative;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    /* position: relative; */
     /* padding-left: 50px; */
     position: fixed;
   }
@@ -92,6 +97,7 @@ a.active,a:hover{
   }
   .checkbtn{
     display: block;
+    align-content: center;
   }
   ul{
     
