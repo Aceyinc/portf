@@ -6,7 +6,9 @@
   box-sizing: border-box;
 }
 .content{
-  text-align: center;
+  text-align: right;
+  color: crimson;
+  text-transform: none;
 }
 /* #form{background-color: aqua;} */
 .section{
