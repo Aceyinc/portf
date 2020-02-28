@@ -29,6 +29,20 @@ body{
   bottom: 0;
   width: 100%;
 }
+
+/* btn6 */
+.btn6{
+  border: none;
+  font-size: 16px ;
+  margin: 4px 2px;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50%;
+  color: chartreuse;
+  border: none;
+  text-align: center;
+}
 /* .container {
   background-image: url("d.gif");
 } */
