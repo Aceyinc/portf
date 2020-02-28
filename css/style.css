@@ -5,7 +5,9 @@
   list-style: none;
   box-sizing: border-box;
 }
-
+.content{
+  text-align: center;
+}
 /* #form{background-color: aqua;} */
 .section{
   align-content: center;
@@ -98,7 +100,7 @@ a.active,a:hover{
   cursor: crosshair;
   display: none;
 }
-.checkbtn:hover{
+.checkbtn.active .checkbtn:hover{
   color: rgb(6, 9, 179);
 }
 #check{
