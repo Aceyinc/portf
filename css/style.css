@@ -21,6 +21,7 @@ body{
   color:#7fff00;
   text-decoration: none;
   text-align: center;
+  background: transparent;
   /* background-color: rgb(197, 21, 57); */
   line-height: 30px;
   /* background-color: #333; */
@@ -30,8 +31,8 @@ body{
   width: 100%;
 }
 
-/* btn6 */
-.btn6{
+
+/* .btn6{ 
   border: none;
   font-size: 16px ;
   margin: 4px 2px;
@@ -39,10 +40,10 @@ body{
   display: inline-block;
   text-decoration: none;
   border-radius: 50%;
-  color: chartreuse;
+  color: white;
   border: none;
   text-align: center;
-}
+} */
 /* .container {
   background-image: url("d.gif");
 } */
@@ -115,7 +116,9 @@ a.active,a:hover{
   display: none;
 }
 .checkbtn.active .checkbtn:hover{
-  color: rgb(6, 9, 179);
+  /* color: rgb(6, 9, 179); */
+  background: none;
+  color: #0082e6;
 }
 #check{
   display: none;
