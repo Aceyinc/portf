@@ -33,30 +33,6 @@ body{
   width: 100%;
 }
 
-
-
-
-.pg1btn{
-  font-size: 20px;
-  color: whitesmoke;
-  float: right;
-  /* line-height: 80px; */
-  margin-right: 30%;
-  margin-left: 70%;
-  cursor: zoom-in;
-  text-decoration: none;
-  /* display: none; */
-}
-.pag1btn.active .pg1btn:hover{
-  /* color: rgb(6, 9, 179); */
-  background: none;
-  color: #00e673;
-}
-
-
-
-
-
 /* .btn6{ 
   border: none;
   font-size: 16px ;
