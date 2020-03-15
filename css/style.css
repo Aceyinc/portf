@@ -1,3 +1,17 @@
+
+/* .pulse-loader{
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.pulse-loader div{
+  position: absolute;
+  border: 4px solid #fdba03;
+  border-radius: 50%;
+  animation: pulse-loader ls ease-out infinite;
+
+}  */
+
 *{
   padding: 0;
   margin: 0;
